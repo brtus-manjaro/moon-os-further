@@ -9,7 +9,6 @@ DISK="/dev/sda"
 HOSTNAME="moon-os"
 TIMEZONE="Europe/Amsterdam"
 LOCALE="en_US.UTF-8"
-KEYMAP="us-intl"
 MIRROR_COUNTRY="Netherlands"
 ### =============== ###
 
@@ -20,8 +19,6 @@ echo -e "\n🌙 Welcome to the Moon OS Installer\n"
 read -rp "🌙 Enter your desired username: " USERNAME
 
 # Keyboard layout
-loadkeys $KEYMAP
-echo "🧩 Keyboard set to $KEYMAP"
 
 # Mirrors
 echo "🌐 Setting fast mirrors from $MIRROR_COUNTRY..."
