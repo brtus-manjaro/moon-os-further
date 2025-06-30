@@ -15,6 +15,6 @@ A minimal Arch Linux install script with Moon OS flavor.
 ## Usage (from Arch ISO)
 
 ```bash
-curl -LO https://raw.githubusercontent.com/YOUR_USERNAME/moon-arch/main/install.sh
+curl -LO https://raw.githubusercontent.com/brtus_manjaro/moon-arch/main/install.sh
 chmod +x install.sh
 ./install.sh
